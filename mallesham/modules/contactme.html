@@ -1,0 +1,64 @@
+<style type="text/css">
+.M3_ContactDetMain{
+	background: url(../images/bg.jpg) repeat right top;	
+	z-index: -1;
+	width: 100%;
+	height: 95%;
+}
+
+.M3_ContactDet span{		
+	float:left;
+ 	width:300px;
+ 	margin: 5px;
+}
+.M3_ContactDet input{	
+	float:left;	
+	width: 300px;
+	margin: 5px;
+	position:relative;	
+}
+
+</style>
+<form ACTION="thankyou.php">
+<div id="M3id_ContactDet" class="M3_ContactDetMain" >
+	<span style="color: rgb(0, 0, 255);font-size:20px;">Contact Me</span></br></br>
+		Add me to your Friend List<br/><br/>Yahoo: malleshamm@yahoo.com<br/>
+		<br/>Place your preferred methods of contact here. If you prefer e-mail contact, use only the Contact Us Module on this page. 
+	<br/><br/>
+	<div id="M3id_ContactMe_Title"><b>Mallesham Manchala</b></div>
+		
+	<div><a href="mailto:malleshamm@yahoo.com">malleshamm@yahoo.com</a></div>	</br>
+	<table>
+    <tr><td><span><font color='red'>*</font> Your Name (required):</span></td>
+    <td>
+	<div id="M3id_ContactDet" class="M3_ContactDet">		
+		<input name="name"  align="right" type="text" id="M3id_FirstName" /><br />
+	</div>
+    </td>
+	</tr>
+    <tr><td><span><font color='red'>*</font> Your E-mail address (req):</span></td>
+    <td>
+	<div class="M3_ContactDet">
+		<input name="email"  type="text"  id="M3id_Email" /><br />
+	</div>
+    </td>
+    </tr>
+    <tr><td><span><font color='red'>*</font>Subject (required):</span><br/>	</td>
+	<td>	
+    <div class="M3_ContactDet">	
+        <input name="topic"  type="text"  id="M3id_topic" /><br />
+	</div>
+   </td>
+   </tr>
+   </table>
+	<div class="M3_ContactDet">	
+		<span><font color='red'>*</font> Message (required):</span><br/>		
+        <p> <TEXTAREA NAME="info" rows="4" COLS="58" WRAP="virtual" id="M3id_Message" ></TEXTAREA>
+	</div>
+	
+	<div style="text-align:center">
+    	<input type="submit" name="send" value="[send]"/>
+    	<INPUT TYPE=reset  VALUE="[start over]">		
+	</div>
+</div>
+</form>

@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>KONDAPAK - Donors</title>
+
+<link href="css/kpk.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+body {
+      background-color: #fff9df;
+}
+.infra {
+      line-height: 19px;
+      font-family: verdana;
+      font-size: 12px;
+      padding-left:20px; 
+      padding-right:20px;
+      padding-top:10px;
+      
+      
+}
+-->
+
+.Doc_images{
+      width:80%;
+      box-shadow:rgba(0,0,0,0.3) 0 0 5px 1px; 
+      margin: 20px auto;
+}
+.Doc_images img{
+      width: 100%;
+}
+
+.DivKosaContainers{
+  Z-INDEX: 1; 
+  width:690px; 
+  height:640px;
+  overflow:auto;
+  font-family: arial;
+  border:thin; 
+  border-style:solid; 
+  border-color:#d8cc96;
+  font-size:13px; 
+  font-family:verdana; 
+  line-height:20px; 
+  padding-top:10px;
+  padding-left:10px; 
+  padding-right:10px; 
+  text-align:justify;
+  display:none; 
+}
+
+.iframe_button {
+  width: 75px;
+  height: 25px;
+  background: #dbcf9b;
+  margin: 0 5px 10px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px solid #b3ab84;
+  font-size: 22px;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 2px;
+  color: #333;
+}
+.iframe_button:hover {
+  background: #908558;
+}
+.iframe_button:active {
+  background: #9c9058;
+}
+.iframe_button.active {
+  border-bottom: 3px solid #bc1d03;
+}
+
+</style>
+</head>
+
+<body>
+<div class="infra">
+<font style="font-family:Maiandra GD; font-size:26px; color:#bc1d03; font-weight:bold">Kondapak Old Students Association</font><p>
+ <table width="720"  border="0" cellspacing="0" cellpadding="0" bordercolor="#999999">
+
+ <tr>
+ <td>
+<div class="kosa-sub-links">
+   <a class="refLinks" data-div="Div2013" href="#"><span class="iframe_button">2013</span></a>
+
+   <a class="refLinks" data-div="Div2015" href="#"><span class="iframe_button">2015</span></a>
+
+   <a class="refLinks" data-div="Div2016" href="#"><span class="iframe_button">2016</span></a>
+   
+   <a class="refLinks" data-div="Div2017" href="#"><span class="iframe_button active">2017</span></a>
+ </div>
+<DIV id="Div2013" class="DivKosaContainers">
+
+      <div class="Doc_images">
+            <img src="./images/kondapak_kosa_1.jpg" />
+      </div>
+
+      <div class="Doc_images">
+            <img src="./images/kondapak_kosa_2.jpg" />
+      </div>
+
+      
+</div>
+
+
+
+<DIV id="Div2015" class="DivKosaContainers">
+
+      <div class="Doc_images">
+            <img src="./images/KOSA_2015.jpg" />
+      </div>
+
+      <div class="Doc_images">
+            <img src="./images/KOSA_2_2015.jpg" />
+      </div>
+
+      
+</div>
+
+
+<DIV id="Div2016" class="DivKosaContainers">
+
+      <h1 style="text-align:center;margin-top:100px;">Stay Tuned For Updates...</h1>
+      
+</div>
+
+<DIV id="Div2017" class="DivKosaContainers">
+
+      <div class="Doc_images">
+            <img src="./images/KOSA_2017.jpg" />
+      </div>
+
+      <div class="Doc_images">
+            <img src="./images/KOSA_2_2017.jpg" />
+      </div>
+
+      <div class="Doc_images">
+            <img src="./images/KOSA_3_2017.jpg" />
+      </div>
+
+      
+</div>
+
+
+ </td>
+ </tr>                  
+</table>
+</div>
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script type="text/javascript">
+      $("#" + $(".kosa-sub-links .active").closest(".refLinks").data("div")).fadeIn(0);
+      $("#Div2017")
+      $(document).ready(function(){
+
+            $(".refLinks").unbind('click').bind('click', function(){
+                  $(".kosa-sub-links").find(".active").removeClass("active");
+                  $(this).find(".iframe_button").addClass("active");
+                  $(".DivKosaContainers").fadeOut(0);
+                  $("#"+$(this).data("div")).fadeIn(250);
+
+            });
+
+      });
+
+
+</script>
+</body>
+</html>
+

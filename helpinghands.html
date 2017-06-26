@@ -1,0 +1,107 @@
+  <html>
+  <head>
+    <style>
+      
+      #text h1
+      {        
+        color: #C12525;
+        margin:0 10px;
+      }
+      .yr{
+        display: inline-block;
+      }
+
+      .yr button {
+        height: 25px;
+        width: 80px;
+        background-color: transparent;
+        margin: 10px 0 5px 5px;
+        border: none;
+      }
+      
+      .yr button:focus {
+        outline: none;
+      }
+      
+      #content
+      {
+        height:620px;
+        width:690px;
+        background-color: #fff9df;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        border:thin solid rgb(216,204,150);
+        margin:10px;
+        overflow-y: auto;
+        overflow-x: hidden;
+      }
+      
+      
+    </style>
+    <script>
+      function myfunction(s)
+      {
+        var i,a=["content_a","content_b","content_c","content_d"];
+        
+        for(i=0;i<a.length;i++)
+        {
+          document.getElementById(a[i]).style.display="none";
+        }
+        document.getElementById(s).style.display="block";
+        
+      }
+    </script>
+  </head>
+  <body style="background-color:#fff9df;">
+    <div id="text">
+      <h1>
+        Helping hands 
+      </h1>
+    </div>
+    <div class="yr">
+      <button onclick="myfunction('content_a')">
+        <img src="images/kosa13.jpg" border="0">
+      </button>
+    </div>
+    <div class="yr">
+      <button  onclick="myfunction('content_b')">
+        <img src="images/kosa14.jpg" border="0">
+      </button>
+    </div>
+    <div class="yr">
+      <button onclick="myfunction('content_c')">
+        <img src="images/kosa15.jpg" border="0">
+      </button>
+    </div>
+    <div class="yr">
+      <button onclick="myfunction('content_d')">
+        <img src="images/kosa16.jpg" border="0">
+      </button>
+    </div>
+    <div id="content">
+      <div id="content_a">
+        <h1 style="text-align:center;margin-top:100px;">
+          Stay Tuned For Updates...
+        </h1>
+      </div >
+      
+      <div id="content_b" style ="display:none;">
+        <h1 style="text-align:center;margin-top:100px;">
+          Stay Tuned For Updates...
+        </h1>
+      </div>
+      <div id="content_c" style ="display:none;">
+        <h1 style="text-align:center;margin-top:100px;">
+          Stay Tuned For Updates...
+        </h1>
+      </div>
+      <div id="content_d"  style ="display:none;">
+        <h1 style="text-align:center;margin-top:100px;">
+          Stay Tuned For Updates...
+        </h1>
+      </div>
+    </div>
+    
+  </body>
+</html>

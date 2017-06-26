@@ -1,0 +1,585 @@
+body {
+    background-color: #CCCCCC;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+div.menu {
+    margin: 0;
+    padding-left: 10px;
+    list-style-type: none;
+    width: 215px;
+    float: left;
+    position: relative;
+}
+
+div.menu ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+div.menu ul li {
+    width: 100px;
+    height: 28px;
+    float: left;
+    margin-left: -2px;
+}
+
+div.menu ul li.first {
+    background: url(../images/home.gif) no-repeat;
+    width: 199px;
+    height: 26px;
+    display: inline;
+    float: left;
+    margin-left: 1px;
+}
+
+div.menu ul li.first a {
+    width: 199px;
+    height: 26px;
+    display: block;
+}
+
+div.menu ul li.first a:hover {
+    background: url(../images/home1.gif) no-repeat;
+    width: 199px;
+    height: 26px;
+    display: block;
+}
+
+div.menu ul li.second {
+    background: url(../images/history.gif) no-repeat;
+    width: 199px;
+    height: 26px;
+    display: inline;
+    float: left;
+    margin-left: 1px;
+}
+
+div.menu ul li.second a {
+    width: 199px;
+    height: 26px;
+    display: block;
+}
+
+div.menu ul li.second a:hover {
+    background: url(../images/history1.gif) no-repeat;
+    width: 199px;
+    height: 26px;
+    display: block;
+}
+
+div.menu ul li.third {
+    background: url(../images/agr.gif) no-repeat;
+    width: 199px;
+    height: 26px;
+    display: inline;
+    float: left;
+    margin-left: 1px;
+}
+
+div.menu ul li.third a {
+    width: 199px;
+    height: 26px;
+    display: block;
+}
+
+div.menu ul li.third a:hover {
+    background: url(../images/agr1.gif) no-repeat;
+    width: 199px;
+    height: 26px;
+    display: block;
+}
+
+div.menu ul li.fourth {
+    background: url(../images/cultur.gif) no-repeat;
+    width: 199px;
+    height: 26px;
+    display: inline;
+    float: left;
+    margin-left: 1px;
+}
+
+div.menu ul li.fourth a {
+    width: 199px;
+    height: 26px;
+    display: block;
+}
+
+div.menu ul li.fourth a:hover {
+    background: url(../images/cultur1.gif) no-repeat;
+    width: 199px;
+    height: 26px;
+    display: block;
+}
+
+div.menu ul li.fifth {
+    background: url(../images/devolop.gif) no-repeat;
+    width: 199px;
+    height: 26px;
+    display: inline;
+    float: left;
+    margin-left: 1px;
+}
+
+div.menu ul li.fifth a {
+    width: 199px;
+    height: 26px;
+    display: block;
+}
+
+div.menu ul li.fifth a:hover {
+    background: url(../images/devolop1.gif) no-repeat;
+    width: 199px;
+    height: 26px;
+    display: block;
+}
+
+div.menu ul li.sixth {
+    background: url(../images/devot.gif) no-repeat;
+    width: 199px;
+    height: 26px;
+    display: inline;
+    float: left;
+    margin-left: 1px;
+}
+
+div.menu ul li.sixth a {
+    width: 199px;
+    height: 26px;
+    display: block;
+}
+
+div.menu ul li.sixth a:hover {
+    background: url(../images/devot1.gif) no-repeat;
+    width: 199px;
+    height: 26px;
+    display: block;
+}
+
+div.menu ul li.seven {
+    background: url(../images/edu.gif) no-repeat;
+    width: 199px;
+    height: 26px;
+    display: inline;
+    float: left;
+    margin-left: 1px;
+}
+
+div.menu ul li.seven a {
+    width: 199px;
+    height: 26px;
+    display: block;
+}
+
+div.menu ul li.seven a:hover {
+    background: url(../images/edu1.gif) no-repeat;
+    width: 199px;
+    height: 26px;
+    display: block;
+}
+
+div.menu ul li.eight {
+    background: url(../images/infra.gif) no-repeat;
+    width: 199px;
+    height: 26px;
+    display: inline;
+    float: left;
+    margin-left: 1px;
+}
+
+div.menu ul li.eight a {
+    width: 199px;
+    height: 26px;
+    display: block;
+}
+
+div.menu ul li.eight a:hover {
+    background: url(../images/infra1.gif) no-repeat;
+    width: 199px;
+    height: 26px;
+    display: block;
+}
+
+div.menu ul li.nine {
+    background: url(../images/profe.gif) no-repeat;
+    width: 199px;
+    height: 26px;
+    display: inline;
+    float: left;
+    margin-left: 1px;
+}
+
+div.menu ul li.nine a {
+    width: 199px;
+    height: 26px;
+    display: block;
+}
+
+div.menu ul li.nine a:hover {
+    background: url(../images/profe1.gif) no-repeat;
+    width: 199px;
+    height: 26px;
+    display: block;
+}
+
+div.menu ul li.ten {
+    background: url(../images/photo.gif) no-repeat;
+    width: 199px;
+    height: 26px;
+    display: inline;
+    float: left;
+    margin-left: 1px;
+}
+
+div.menu ul li.ten a {
+    width: 199px;
+    height: 26px;
+    display: block;
+}
+
+div.menu ul li.ten a:hover {
+    background: url(../images/photo1.gif) no-repeat;
+    width: 199px;
+    height: 26px;
+    display: block;
+}
+
+div.menu ul li.eleven {
+    background: url(../images/event.gif) no-repeat;
+    width: 199px;
+    height: 26px;
+    display: inline;
+    float: left;
+    margin-left: 1px;
+}
+
+div.menu ul li.eleven a {
+    width: 199px;
+    height: 26px;
+    display: block;
+}
+
+div.menu ul li.eleven a:hover {
+    background: url(../images/event1.gif) no-repeat;
+    width: 199px;
+    height: 26px;
+    display: block;
+}
+
+div.menu ul li.twelve {
+    background: url(../images/donor.gif) no-repeat;
+    width: 199px;
+    height: 26px;
+    display: inline;
+    float: left;
+    margin-left: 1px;
+}
+
+div.menu ul li.twelve a {
+    width: 199px;
+    height: 26px;
+    display: block;
+}
+
+div.menu ul li.twelve a:hover {
+    background: url(../images/donor1.gif) no-repeat;
+    width: 199px;
+    height: 26px;
+    display: block;
+}
+
+div.menu ul li.thirteen {
+    background: url(../images/nri.gif) no-repeat;
+    width: 199px;
+    height: 26px;
+    display: inline;
+    float: left;
+    margin-left: 1px;
+}
+
+div.menu ul li.thirteen a {
+    width: 199px;
+    height: 26px;
+    display: block;
+}
+
+div.menu ul li.thirteen a:hover {
+    background: url(../images/nri1.gif) no-repeat;
+    width: 199px;
+    height: 21px;
+    display: block;
+}
+
+div.menu ul li.fourteen {
+    background: url(../images/contact.gif) no-repeat;
+    width: 199px;
+    height: 21px;
+    display: inline;
+    float: left;
+    margin-left: 1px;
+}
+
+div.menu ul li.fourteen a {
+    width: 199px;
+    height: 21px;
+    display: block;
+}
+
+div.menu ul li.fourteen a:hover {
+    background: url(../images/contact1.gif) no-repeat;
+    width: 199px;
+    height: 21px;
+    display: block;
+}
+
+div.menu ul li.fifteen {
+    background: url(../images/useful.gif) no-repeat;
+    width: 199px;
+    height: 21px;
+    display: inline;
+    float: left;
+    margin-left: 1px;
+}
+
+div.menu ul li.fifteen a {
+    width: 199px;
+    height: 21px;
+    display: block;
+}
+
+div.menu ul li.fifteen a:hover {
+    background: url(../images/useful1.gif) no-repeat;
+    width: 199px;
+    height: 21px;
+    display: block;
+}
+
+div.menu ul li.sixteen {
+    background: url(../images/kosa.gif) no-repeat;
+    width: 199px;
+    height: 25px;
+    display: inline;
+    float: left;
+    margin-left: 1px;
+}
+
+div.menu ul li.sixteen a {
+    width: 199px;
+    height: 21px;
+    display: block;
+}
+
+div.menu ul li.sixteen a:hover {
+    background: url(../images/kosa1.gif) no-repeat;
+    width: 199px;
+    height: 21px;
+    display: block;
+}
+
+div.menu ul li.seventeen {
+    background: url(../images/helpinghands.gif) no-repeat;
+    width: 199px;
+    height: 25px;
+    display: inline;
+    float: left;
+    margin-left: 1px;
+}
+
+div.menu ul li.seventeen a {
+    width: 199px;
+    height: 21px;
+    display: block;
+}
+
+div.menu ul li.seventeen a:hover {
+    background: url(../images/helpinghands1.gif) no-repeat;
+    width: 199px;
+    height: 21px;
+    display: block;
+}
+
+.font {
+    line-height: 20px;
+    font-family: verdana;
+    font-size: 13px;
+    height: 570px;
+    scrollbar-base-color: #c7c7c9;
+    width: 710px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.font1 {
+    line-height: 20px;
+    font-family: verdana;
+    font-size: 13px;
+    height: 240px;
+    overflow: auto;
+    scrollbar-base-color: #c7c7c9;
+    width: 719px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.font2 {
+    line-height: 17px;
+    font-family: verdana;
+    font-size: 12px;
+    height: 384px;
+    overflow: auto;
+    scrollbar-base-color: #c7c7c9;
+    width: 600px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+
+.font3 {
+    padding-left: 130px;
+    padding-top: 255px;
+    padding-right: 10px;
+    letter-spacing: 20px;
+}
+
+.menubackground {
+    background: url(../images/bg2.png) no-repeat center;
+    vertical-align: center;
+    background-size: 215px 480px;
+    height: 500px;
+}
+
+div.menus {
+    margin: 0;
+    padding-left: 140px;
+    list-style-type: none;
+    width: 515px;
+    float: left;
+    position: relative;
+}
+
+div.menus ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+div.menus ul li {
+    width: 200px;
+    height: 28px;
+    float: left;
+    margin-left: -2px;
+}
+
+div.menus ul li.first1 {
+    background: url(../images/fb.png) no-repeat;
+    width: 80px;
+    height: 80px;
+    display: inline;
+    float: left;
+    margin-left: 1px;
+}
+
+div.menus ul li.first1 a {
+    width: 80px;
+    height: 80px;
+    display: block;
+}
+
+div.menus ul li.first1 a:hover {
+    background: url(../images/fb1.png) no-repeat;
+    width: 90px;
+    height: 90px;
+    display: block;
+}
+
+div.menus ul li.second1 {
+    background: url(../images/okt.png) no-repeat;
+    width: 80px;
+    height: 80px;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+}
+
+div.menus ul li.second1 a {
+    width: 80px;
+    height: 80px;
+    display: block;
+}
+
+div.menus ul li.second1 a:hover {
+    background: url(../images/okt1.png) no-repeat;
+    width: 90px;
+    height: 90px;
+    display: block;
+}
+
+div.menus ul li.third1 {
+    background: url(../images/blog.png) no-repeat;
+    width: 80px;
+    height: 80px;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+}
+
+div.menus ul li.third1 a {
+    width: 80px;
+    height: 80px;
+    display: block;
+}
+
+div.menus ul li.third1 a:hover {
+    background: url(../images/blog1.png) no-repeat;
+    width: 90px;
+    height: 90px;
+    display: block;
+}
+
+div.menus ul li.fourth1 {
+    background: url(../images/gml.png) no-repeat;
+    width: 80px;
+    height: 80px;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+}
+
+div.menus ul li.fourth1 a {
+    width: 80px;
+    height: 80px;
+    display: block;
+}
+
+div.menus ul li.fourth1 a:hover {
+    background: url(../images/gml1.png) no-repeat;
+    width: 90px;
+    height: 90px;
+    display: block;
+}
+
+div.menus ul li.fifth1 {
+    background: url(../images/gmap.png) no-repeat;
+    width: 80px;
+    height: 80px;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+}
+
+div.menus ul li.fifth1 a {
+    width: 80px;
+    height: 80px;
+    display: block;
+}
+
+div.menus ul li.fifth1 a:hover {
+    background: url(../images/gmap1.png) no-repeat;
+    width: 90px;
+    height: 90px;
+    display: block;
+}

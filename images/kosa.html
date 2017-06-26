@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>KONDAPAK - Donors</title>
+
+<link href="css/kpk.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+body {
+      background-color: #fff9df;
+}
+.infra {
+      line-height: 19px;
+      font-family: verdana;
+      font-size: 12px;
+      padding-left:20px; 
+      padding-right:20px;
+      padding-top:10px;
+      
+      
+}
+-->
+
+.Doc_images{
+      width:80%;
+      box-shadow:rgba(0,0,0,0.3) 0 0 5px 1px; 
+      margin: 20px auto;
+}
+.Doc_images img{
+      width: 100%;
+}
+
+.DivKosaContainers{
+  Z-INDEX: 1; 
+  width:690px; 
+  height:640px;
+  overflow:auto;
+  font-family: arial;
+  border:thin; 
+  border-style:solid; 
+  border-color:#d8cc96;
+  font-size:13px; 
+  font-family:verdana; 
+  line-height:20px; 
+  padding-top:10px;
+  padding-left:10px; 
+  padding-right:10px; 
+  text-align:justify;
+  display:none; 
+}
+
+</style></head>
+
+<body>
+<div class="infra">
+<font style="font-family:Maiandra GD; font-size:26px; color:#bc1d03; font-weight:bold">Kondapak Old Students Association</font><p>
+ <table width="720"  border="0" cellspacing="0" cellpadding="0" bordercolor="#999999">
+
+ <tr>
+ <td>
+  <A class="refLinks" data-div="Div2013" href="#"><img src="images/kosa13.jpg" border="0"></A>
+
+ <A class="refLinks" data-div="Div2015" href="#"><img src="images/kosa15.jpg" border="0"></A>
+
+ <A class="refLinks" data-div="Div2016" href="#"><img src="images/kosa16.jpg" border="0"></A>
+ 
+<DIV id="Div2013" class="DivKosaContainers">
+
+      <div class="Doc_images">
+            <img src="./images/kondapak_kosa_1.jpg" />
+      </div>
+
+      <div class="Doc_images">
+            <img src="./images/kondapak_kosa_2.jpg" />
+      </div>
+
+      
+</div>
+
+
+
+<DIV id="Div2015" class="DivKosaContainers">
+
+      <div class="Doc_images">
+            <img src="./images/KOSA_2015.jpg" />
+      </div>
+
+      <div class="Doc_images">
+            <img src="./images/KOSA_2_2015.jpg" />
+      </div>
+
+      
+</div>
+
+
+<DIV id="Div2016" class="DivKosaContainers">
+
+      <h1 style="text-align:center;margin-top:100px;">Stay Tuned For Updates...</h1>
+      
+</div>
+
+
+ </td>
+ </tr>                  
+</table>
+</div>
+<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+<script type="text/javascript">
+      $("#Div2015").fadeIn(0);
+      $(document).ready(function(){
+
+            $(".refLinks").unbind('click').bind('click', function(){
+                  $(".DivKosaContainers").fadeOut(0);
+                  $("#"+$(this).data("div")).fadeIn(250);
+
+            });
+
+      });
+
+
+</script>
+</body>
+</html>
+
