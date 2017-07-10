@@ -1,2 +1,6 @@
 # Kondapak
-Kondapak website repo
+Kondapak website repository
+
+This website supports desktop version 
+
+
